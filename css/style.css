@@ -1,0 +1,373 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------------------------------------------- */
+
+/* common */
+html {
+    font-size: 100%;
+    font-family: Whitney, Helvetica, Arial, sans-serif;
+}
+/* ---------------------------------------------- */
+
+/* a */
+a {
+    text-decoration: none;
+}
+/* ---------------------------------------------- */
+
+/* ul */
+ul {
+    list-style-type: none;
+}
+/* ---------------------------------------------- */
+
+/* container */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+/* ---------------------------------------------- */
+
+/* flexbox */
+.flexbox{
+    display: flex;
+}
+/* ---------------------------------------------- */
+
+/* bg-gray */
+.bg-gray {
+    background-color: #ededed;
+}
+/* ---------------------------------------------- */
+
+/* wave */
+.wave {
+    margin-bottom: -7px;
+    filter: opacity(0.07);
+}
+/* ---------------------------------------------- */
+
+/* down */
+.down {
+    transform: scaleX(-1);   
+    transform: rotateX(180deg) 
+}
+/* ---------------------------------------------- */
+/* small-button*/
+.button-small a{
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+/* ---------------------------------------------- */
+
+/* button */
+.button a{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+}
+/* ---------------------------------------------- */
+
+/* .bt-black */
+.bt-black a {
+    background-color: black;
+    color: white;
+}
+/* ---------------------------------------------- */
+
+/* bt-white */
+.bt-white a{
+    background-color: white;
+    color: black;
+}
+/* ---------------------------------------------- */
+
+/* bt-violet */
+.bt-violet a {
+    background-color: #7289da;
+    color: white;
+    line-height: normal;
+}
+/* ---------------------------------------------- */
+
+/* header  */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+/* ---------------------------------------------- */
+
+/* nav-list ul li */
+.nav-list ul li {
+    display: inline-block;
+    margin-left: 1rem;   
+}
+/* ---------------------------------------------- */
+
+/* nav-list ul a */
+.nav-list ul a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.2rem;
+}
+/* ---------------------------------------------- */
+
+/* nav-list */
+.nav-list {
+    width: 50%;
+    text-align: center;
+}
+/* ---------------------------------------------- */
+
+/* header-nav */
+.header-nav {
+    height: 60px;
+    padding-top: 10px;
+}
+/* ---------------------------------------------- */
+
+/* navigation-row */
+.navigation-row {
+    height: 40px;
+    line-height: 40px;
+}
+/* ---------------------------------------------- */
+
+/* nav-col */
+.nav-col{
+    width: 25%;
+}
+/* ---------------------------------------------- */
+
+/* nav-col img */
+.nav-col img {
+    margin-top: 5px;
+}
+/* ---------------------------------------------- */
+
+/* topbutton */
+.topbutton {
+    text-align: end;
+}
+/* ---------------------------------------------- */
+
+ /* header-txt */
+.header-txt {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+}
+/* ---------------------------------------------- */
+
+/* header-txt h1 */
+.header-txt h1 {
+    font-size: 4rem;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+/* ---------------------------------------------- */
+
+/* header-txt p */
+.header-txt p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 50px;
+}
+/* ---------------------------------------------- */
+
+/*row */
+.row {
+    padding: 40px 0;
+}
+/* ---------------------------------------------- */
+
+/* photo-section */
+.photo-section {
+    width: 60%;
+    align-items: center;
+}
+/* ---------------------------------------------- */
+
+/* photo-section img */
+.photo-section img {
+    width: 90%;
+}
+/* ---------------------------------------------- */
+
+/* .text-section */
+.text-section {
+    width: 40%;
+    margin-bottom: 40px;    
+}
+/* ---------------------------------------------- */
+
+/* .text-section h2 */
+.text-section h2 {
+    font-size: 4rem;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+/* ---------------------------------------------- */
+
+/* .text-section p */
+.text-section p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+/* ---------------------------------------------- */
+
+/* fb order */
+.fb-order {
+    order: 1;
+}
+/* ---------------------------------------------- */
+
+/* .bigger-section */
+.bigger-section {
+    padding: 80px;
+}
+/* ---------------------------------------------- */
+
+/* .bigger-section h2 */
+.bigger-section h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* ---------------------------------------------- */
+
+/* .bigger-section */
+.bigger-section p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+/* ---------------------------------------------- */
+
+/* bigimg */
+.bigimg img {
+    width: 100%;
+}
+/* ---------------------------------------------- */
+
+/* bigger-section-buttom */
+.bigger-section-bottom {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 150px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+/* ---------------------------------------------- */
+
+/* bigger-section-buttom h3 */
+.bigger-section-bottom h3 {
+    font-size: 2.5rem;
+}
+/* ---------------------------------------------- */
+
+/* footer  */
+footer {
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 40px;
+}
+/* ---------------------------------------------- */
+
+/* footer-upper */
+.footer-upper {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+/* ---------------------------------------------- */
+
+/* social */
+.social {
+    width: 20%;
+    margin-right: 40px;
+}
+/* ---------------------------------------------- */
+
+/* social h3 */
+.social h3 {
+    font-size: 2.2rem;
+    color: #7289da;
+}
+/* ---------------------------------------------- */
+
+/* social img */
+.social img {
+    margin-top: 20px;
+    height: 15px;
+}
+/* ---------------------------------------------- */
+
+/* social span */
+.social span {
+    color: white;
+    margin-left: 5px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+/* ---------------------------------------------- */
+
+/* footer-link */
+.footer-link {
+    width: 20%;
+}
+/* ---------------------------------------------- */
+
+/* footer-link h4 */
+.footer-link h4 {
+    color: #7289da;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+/* ---------------------------------------------- */
+
+/* footer-link ul li a */
+.footer-link ul li a {
+    margin-bottom: 20px;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    color:white;
+}
+/* ---------------------------------------------- */
+
+/* footer-buttom */
+.footer-bottom {
+    height: 60px;
+    border-top: 1px solid #7289da;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ---------------------------------------------- */
+
+/* social-icons a */
+.social-icons a {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+/* ---------------------------------------------- */
+
+/* social i */
+.social i {
+    margin-right: 20px;
+}
+/* ---------------------------------------------- */
+
+/* arrowdown */
+.arrowdown {
+    font-size: 10px;
+}
+/* ---------------------------------------------- */
